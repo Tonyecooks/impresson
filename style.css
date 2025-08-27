@@ -3,6 +3,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f0f0f0; /* Light grey background */
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .container {
@@ -61,7 +63,7 @@ body {
 }
 
 .secondnav {
-  background-color: rgb(234,234,234);
+  background-color: rgb(234, 234, 234);
   padding: 10px 200px;
   display: flex;
   flex-direction: row;
@@ -522,7 +524,7 @@ body {
 .feed {
   display: flex;
   flex-direction: row;
-  
+
   display: flex;
   flex-direction: row;
 }
@@ -537,6 +539,8 @@ body {
   text-align: start;
   /* padding: 40px; */
   color: white;
+  padding-bottom: 150px;
+  padding-top: 150px;
 }
 
 .feed-item {
@@ -560,4 +564,125 @@ body {
 .mariam p {
   font-weight: 100;
   font-size: small;
+}
+
+.process-buying-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 80px;
+  gap: 0px;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.leftside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.leftside h2 {
+  font-size: 150px;
+  line-height: 150px;
+  margin: 70px;
+}
+
+.buyingheader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 830px;
+}
+
+.underline-three {
+  width: 100px;
+  height: 20px;
+  background-color: #1a1a1a;
+  margin: 30px 0;
+  border: none;
+}
+
+.meet-our-team-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+}
+
+.team-header {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 800px;
+}
+
+.teamphoto {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.partners {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  flex-direction: row;
+}
+
+.left-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.left-text h2 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.partners .underline {
+  display: flex;
+  align-items: flex-start;
+  /* justify-content: flex-start; */
+  /* align-content: start; */
+  position: relative;
+  right: 180px;
+}
+
+.right-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* height: 500px; */
+  text-align: center;
+  font-size: 2em;
+}
+
+.contactus {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  flex-direction: row;
+  width: 100%;
+}
+
+.contactus h3 {
+  font-size: 3em;
 }
